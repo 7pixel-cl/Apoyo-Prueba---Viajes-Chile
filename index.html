@@ -65,32 +65,20 @@
     </div>
 
     <!-- Quienes Somos Section -->
-    <section id="quienes-somos" class=" text-white">
+    <section id="quienes-somos" class="text-white">
         <div class="container py-2">
             <h2 class="section-title">¿Quiénes Somos?</h2>
             <div class="row">
                 <div class="col-md-4">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
-                        consectetur, ultrices justo eu, hendrerit lectus.Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Donec mattis ante nulla. Donec in neque
-                        consectetur, ultrices justo eu, hendrerit lectus.
-
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
-                        consectetur, ultrices justo eu, hendrerit lectus. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Donec mattis ante nulla. Donec in neque
-                        consectetur, ultrices justo eu, hendrerit lectus. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Donec mattis ante nulla. Donec in neque
                         consectetur, ultrices justo eu, hendrerit lectus.</p>
                 </div>
                 <div class="col-md-4">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
-                        consectetur, ultrices justo eu, hendrerit lectus. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Donec mattis ante nulla. Donec in neque
-                        consectetur, ultrices justo eu, hendrerit lectus. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Donec mattis ante nulla. Donec in neque
+                        consectetur, ultrices justo eu, hendrerit lectus.</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
                         consectetur, ultrices justo eu, hendrerit lectus.</p>
                 </div>
             </div>
@@ -103,48 +91,141 @@
             <h2 class="section-title">Destacados</h2>
             <div class="row text-dark">
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card overlay-container">
                         <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#card1Modal">Read More</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card overlay-container">
                         <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Consectetur adipiscing elit</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#card2Modal">Read More</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card overlay-container">
                         <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Sed do eiusmod tempor incididunt ut labore</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#card3Modal">Read More</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card overlay-container">
                         <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Ut enim ad minim veniam</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#card4Modal">Read More</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modals for each card -->
+    <div class="modal fade" id="card1Modal" tabindex="-1" aria-labelledby="card1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card1ModalLabel">Lorem ipsum dolor sit amet</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
+                    consectetur, ultrices justo eu, hendrerit lectus. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Donec mattis ante nulla.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="card2Modal" tabindex="-1" aria-labelledby="card2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card2ModalLabel">Consectetur adipiscing elit</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
+                    consectetur, ultrices justo eu, hendrerit lectus. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Donec mattis ante nulla.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="card3Modal" tabindex="-1" aria-labelledby="card3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card3ModalLabel">Sed do eiusmod tempor incididunt ut labore</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
+                    consectetur, ultrices justo eu, hendrerit lectus. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Donec mattis ante nulla.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="card4Modal" tabindex="-1" aria-labelledby="card4ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card4ModalLabel">Ut enim ad minim veniam</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
+                    consectetur, ultrices justo eu, hendrerit lectus. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Donec mattis ante nulla.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Contacto Section -->
     <section id="contacto" class="contact-section">
@@ -177,7 +258,6 @@
             <a href="#" class="icon text-white"><i class="fab fa-linkedin"></i></a>
         </div>
     </footer>
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>

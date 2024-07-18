@@ -18,7 +18,6 @@ body {
     padding: 30px 0;
 }
 
-
 .footer {
     background-color: #00aeef;
     display: flex;
@@ -30,6 +29,7 @@ body {
     display: inline-flex;
     margin: 0;
 }
+
 .icon {
     font-size: 24px;
     margin: 0 10px;
@@ -49,4 +49,30 @@ body {
 
 .navbar.scrolled {
     background-color: rgba(0, 0, 0, 0.8); /* Change to your desired solid color */
+}
+
+/* Overlay effect for cards */
+.overlay-container {
+    position: relative;
+}
+
+.overlay-container img {
+    transition: 0.3s;
+}
+
+.overlay-container:hover img {
+    opacity: 0.7;
+}
+
+.overlay-container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.overlay-container:hover .btn {
+    opacity: 1;
 }
