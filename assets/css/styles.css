@@ -81,8 +81,11 @@ body {
 .icon-box {
     text-align: center;
     margin-bottom: 15px;
+    background-color: #00aeef;
 }
 
 .icon-box i {
-    color: #00aeef;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 5px;
 }
