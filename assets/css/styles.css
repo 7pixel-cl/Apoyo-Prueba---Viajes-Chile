@@ -76,3 +76,13 @@ body {
 .overlay-container:hover .btn {
     opacity: 1;
 }
+
+/* Icon Box */
+.icon-box {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.icon-box i {
+    color: #00aeef;
+}
